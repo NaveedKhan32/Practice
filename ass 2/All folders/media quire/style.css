@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main{
+
+    height: 50%;
+    width: 100%;
+    position: relative;
+    background-color: gray;
+    /* margin-bottom: 0px; */
+    margin: 0px;
+
+}
+.nav{
+    height: 50px;
+    /* color: aliceblue; */
+    width: 100%;
+    /* background-color:lightslategray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+color: aliceblue;
+
+    
+    
+}
+.nav h2:hover{
+transition: all 1s ease-in;
+/* background-color: brown; */
+color:white;
+transform: rotate(10deg);
+ 
+}
+
+
+
+
+.nava{
+    display: flex;
+    gap: 4vw;
+    justify-content: center;
+    padding: 0px 5vw;
+    /* margin-top: 0px; */
+    font-weight: 3em;
+
+}
+.nav h2{
+    font-size: 2em;
+    padding: 1.2em;
+    
+    /* margin-top: 1px; */
+
+    
+}
+/* img{
+    background-image: none;
+    width:300px ;
+    height:300px ;
+    background-size: cover;
+    position: absolute;
+    right: 3px;
+    
+} */
+
+.page{
+    width: 60vw;
+    height: 30vh;
+    /* background-color: brown; */
+    /* border: 1px solid black; */
+}
+.child h3{
+    text-align: center;
+    line-height: 2em;
+    font-size: 2em;
+    padding: 20px;
+    color: darkorange;
+    
+}
+.child{
+    line-height: 2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+
+
+img{
+    position: absolute;
+    bottom: 130px;
+    right:8px ;
+    /* transform: skew(5deg); */
+}
+/* img{
+    position: absolute;
+    right: 8px ;
+    /* bottom: 334px; */
+    
+
+
+
+/* .child p{
+    font-size: 10px;
+} */
+/* img{
+    position: absolute;
+    right: 8px ;
+    /* bottom: 334px; */
+    
+
+
+
+
+
+span{
+    color: darkgoldenrod;
+}
+button{
+    position: absolute;
+    left: 15em;
+    bottom: 140px;
+    width: 10vw;
+    /* transform: rotate(30deg); */
+
+}
+button:hover{
+    background-color: orange;
+    /* transform: rotate(10deg); */
+    color: aliceblue;
+    /* transition: all; */
+    transition:all 1s ease-out ;
+    /* transform: scale(2); */
+    transform: translate(-5px);
+
+} 
+ 
+.head {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    
+
+}
+.head h1{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    background-color: black;
+    color: aliceblue;
+    
+}
+.head h1:hover{
+background-color: grey;
+color: yellow;
+transform:translatex(10px);
+transform: rotate(5deg);
+transition: all 1s ease-out;
+}
+
+
+
+
+
+@media (max-width:600px) {
+    .nav{
+        background-color:black;
+        color:white;
+        font-size: 1.2em;
+        font-style: italic;
+    }
+    .nava{
+        font-size: 4vw;
+        
+        
+    }
+
+
+}

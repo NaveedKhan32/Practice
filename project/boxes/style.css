@@ -1,0 +1,39 @@
+.abc{
+    width: 50%;
+    background-color: aqua;
+border: 10px  solid  black;
+border-radius: 150px;
+box-shadow: 3px 3px  20px  rgb(12, 11, 11);
+font-size:large;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-top: none;
+border-bottom: none;
+/* margin: 30px; */
+margin: auto;
+margin-top: 30px;
+padding: 20px;
+text-align: center;
+    /* height: 50px;
+    overflow: scroll; */
+/* border-width: 10px;
+border-color: black;
+border-style: groove; */
+
+}
+
+ul>li{
+    display: inline-block;
+    background-color: yellow;
+    width: 100px;
+}
+#sss{
+    color:brown;
+}
+.abcd{
+    width: 20%;
+    border-radius: 5px;
+    border: 10px  groove  black;
+}
+h1{
+    color:blue;
+}

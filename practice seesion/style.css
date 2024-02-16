@@ -1,0 +1,30 @@
+body{
+    background-color: gray;
+}
+
+
+div.abc{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+div.abc2{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#sec{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#sec1{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
